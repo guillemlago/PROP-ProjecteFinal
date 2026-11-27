@@ -1,0 +1,10 @@
+{
+  "source_commit": "7bb12c2",
+  "source_path": "README.md",
+  "original_sha256": "785981db31bbfcabd97e08ab19d751e967ad8d97c561d59150964d37ae6c57b4",
+  "archived_sha256": "fd6c3473db0f5ff5d2e8d8b00715af4b67d79256bcff8fa24ceaebc091a0fd9c",
+  "only_changes": [
+    "Rutas de imagen docs/img/ adaptadas a ../img/ para conservar los enlaces al cambiar de carpeta."
+  ],
+  "verified_content_equal_after_path_normalization": true
+}

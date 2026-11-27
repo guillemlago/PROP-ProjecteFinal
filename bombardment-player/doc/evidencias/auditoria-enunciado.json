@@ -1,0 +1,189 @@
+{
+  "checked_on": "2026-11-27",
+  "scope": "Auditoria documental del enunciado completo, plan, normativa, README y guia; sin compilaciones ni challenges nuevos.",
+  "source_commit": "7bb12c2",
+  "source_path": "README.md",
+  "source_sha256": "785981db31bbfcabd97e08ab19d751e967ad8d97c561d59150964d37ae6c57b4",
+  "source_sections_checked": [
+    "Continguts",
+    "Introducció",
+    "El joc",
+    "Estructura del projecte",
+    "Posada en marxa",
+    "El vostre jugador",
+    "Contracte de temps (important)",
+    "Normes",
+    "`GameStatus`",
+    "Constructors",
+    "Consultes",
+    "Jugades",
+    "Herència",
+    "Banc de proves: challenges",
+    "Avaluació",
+    "Resultats contra profe1 (5 punts)",
+    "Resultats contra profe2 (2 punts)",
+    "Documentació (3 punts)",
+    "Torneig (bonus, fins a 1 punt extra)",
+    "Registre d'experiments",
+    "Ús de la IA",
+    "Lliurament"
+  ],
+  "coverage_document": "bombardment-player/doc/cobertura-enunciado.md",
+  "requirement_ids": [
+    "CE01",
+    "CE02",
+    "CE03",
+    "CE04",
+    "CE05",
+    "CE06",
+    "CE07",
+    "CE08",
+    "CE09",
+    "CE10",
+    "CE11",
+    "CE12",
+    "CE13",
+    "CE14",
+    "CE15",
+    "CE16",
+    "CE17",
+    "CE18",
+    "CE19",
+    "CE20",
+    "CE21",
+    "CE22",
+    "CE23",
+    "CE24",
+    "CE25",
+    "CE26",
+    "CE27",
+    "CE28",
+    "CE29",
+    "CE30",
+    "CE31",
+    "CE32"
+  ],
+  "normative_ids": [
+    "PF01",
+    "PF02",
+    "PF03",
+    "PF04",
+    "PF05",
+    "PF06",
+    "PF07",
+    "PF08",
+    "PF09",
+    "PF10",
+    "PF11",
+    "PF12",
+    "PF13",
+    "PF14",
+    "PF15",
+    "PF16",
+    "PF17",
+    "PF18",
+    "PF19",
+    "PF20"
+  ],
+  "iteration_ids": [
+    "I00",
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07",
+    "I08",
+    "I09",
+    "I10",
+    "I11"
+  ],
+  "manual_content_checks": [
+    "Reglas y API",
+    "Contrato de tiempo, recursos y restricciones",
+    "Benchmarks, validacion y puntuacion por tramos",
+    "Memoria, diario, tags y evidencias",
+    "Uso de IA y defensa",
+    "Equipo, registro, ZIP y reproduccion",
+    "Bonus del torneo y mejoras opcionales"
+  ],
+  "commands_and_options": [
+    {
+      "command_or_option": "mvn install",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "mvn clean install",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": ".\\scripts\\ui.bat",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": ".\\scripts\\challenge.bat",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "bash scripts/ui.sh",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "bash scripts/challenge.sh",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "mvn package",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "cd bombardment-player && mvn clean && cd ..",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "zip -r G_E76.zip bombardment-player -x \"*/.git/*\" \"*/target/*\"",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "tar -a -c -f G_E76.zip --exclude=.git --exclude=target bombardment-player",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "git checkout",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "BUILD=0",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "CONFIG",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "playerA",
+      "present_in_main_readme": true
+    },
+    {
+      "command_or_option": "playerB",
+      "present_in_main_readme": true
+    }
+  ],
+  "api_signatures_checked": 30,
+  "missing_api_signatures": [],
+  "reference_content_preserved": true,
+  "local_links_checked": 324,
+  "local_anchors_checked": 23,
+  "protected_files_hashed_before_and_after": 57,
+  "modified_protected_files": [],
+  "only_documentation_changes": true,
+  "corrections": [
+    "Lanzadores Linux/macOS documentados con Bash",
+    "Comandos y CONFIG visibles en README",
+    "Revisiones explicitas de restricciones y parametros en iteraciones",
+    "Configuracion efectiva de benchmark y valor por defecto de timeMs",
+    "Separacion de optimizaciones opcionales y requisitos obligatorios"
+  ],
+  "errors": []
+}

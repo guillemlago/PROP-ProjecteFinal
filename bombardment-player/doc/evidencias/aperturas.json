@@ -1,0 +1,88 @@
+{
+  "checked_on": "2026-11-27",
+  "method": "Comparacion exacta de FEN completos, incluido turno; excluidas lineas vacias y comentarios.",
+  "files": {
+    "benchmark-A-8x8": {
+      "file": "openings/benchmark-A-8x8.txt",
+      "lines": 100,
+      "unique_fens": 100,
+      "sha256": "361696237dc78f06e05c7f060c76fc2d4b7fa1911418c1c529d17c3c2d269352"
+    },
+    "benchmark-B-8x8": {
+      "file": "openings/benchmark-B-8x8.txt",
+      "lines": 100,
+      "unique_fens": 100,
+      "sha256": "14a42b6f28df8169caedc1c2e6c5342e28220da0b95ed1827f59a19a402aa67b"
+    },
+    "prova-10-8x8": {
+      "file": "openings/prova-10-8x8.txt",
+      "lines": 10,
+      "unique_fens": 10,
+      "sha256": "c55bf1d2b69e9840ed9edb5bb40bcc6382947669793a1807c536d3d1bdd929b9"
+    },
+    "prova-25-8x8": {
+      "file": "openings/prova-25-8x8.txt",
+      "lines": 25,
+      "unique_fens": 25,
+      "sha256": "3737ac1d4fa83cda47de9f67b5f8afd210781b4e3283a43ec346d7197ddcc3d7"
+    },
+    "prova-50-8x8": {
+      "file": "openings/prova-50-8x8.txt",
+      "lines": 50,
+      "unique_fens": 50,
+      "sha256": "c3ecf44664e5c8a1c714c9114a57a90908eb6fd96db5f369aa4225b47379dca7"
+    }
+  },
+  "intersections": [
+    {
+      "a": "benchmark-A-8x8",
+      "b": "benchmark-B-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-A-8x8",
+      "b": "prova-10-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-A-8x8",
+      "b": "prova-25-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-A-8x8",
+      "b": "prova-50-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-B-8x8",
+      "b": "prova-10-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-B-8x8",
+      "b": "prova-25-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "benchmark-B-8x8",
+      "b": "prova-50-8x8",
+      "common_fens": 0
+    },
+    {
+      "a": "prova-10-8x8",
+      "b": "prova-25-8x8",
+      "common_fens": 10
+    },
+    {
+      "a": "prova-10-8x8",
+      "b": "prova-50-8x8",
+      "common_fens": 10
+    },
+    {
+      "a": "prova-25-8x8",
+      "b": "prova-50-8x8",
+      "common_fens": 25
+    }
+  ]
+}

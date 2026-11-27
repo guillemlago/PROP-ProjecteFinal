@@ -1,0 +1,21 @@
+{
+  "checked_on": "2026-11-27",
+  "local_links_checked": 324,
+  "pdf_documents": 9,
+  "pdf_pages": 201,
+  "visual_pages": 201,
+  "reference_content_preserved": true,
+  "tracked_changes": [
+    "README.md",
+    "bombardment-player/doc/README.md",
+    "bombardment-player/doc/memoria.md",
+    "bombardment-player/doc/registre.md",
+    "bombardment-player/experiments/README.md"
+  ],
+  "new_documentation_files": 227,
+  "only_documentation_changes": true,
+  "errors": [],
+  "visual_review": "Inspeccion de paginas representativas de los nueve documentos: esquemas, capturas, texto y paginas sin texto extraible.",
+  "local_anchors_checked": 23,
+  "latest_requirement_audit": "auditoria-enunciado.json"
+}
